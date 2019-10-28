@@ -115,6 +115,8 @@ the github to a .tar.gz file.  See "snapshot" scripts under
 Note that while OpenSSL is listed in lib-versions, it is
 not required for Mac builds.
 
+> If you decided to clone ovpn3 to another location other than ~/src, you have to export the env variable DEP_DIR to point to wherever the src/mac folder is located at.
+
 Build the dependencies::
 
     $ DL=~/Downloads
